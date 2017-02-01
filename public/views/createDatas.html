@@ -1,0 +1,12 @@
+<div class="row">
+    <div class="col-xs-8 col-xs-offset-2 createLink text-center">
+        <a  ng-click="createCtrl.showCreateTeam()"><h2>Create a team</h2></a>
+    </div>
+    <ng-include src="'/views/create/team.html'" ng-show="createCtrl.display.createTeam"></ng-include>
+</div>
+<div class="row">
+    <div class="col-xs-8 col-xs-offset-2 createLink text-center">
+        <a ng-click="createCtrl.showCreatePlayer()"><h2>Create a player</h2></a>
+    </div>
+    <ng-include src="'/views/create/player.html'" ng-show="createCtrl.display.createPlayer"></ng-include>
+</div>

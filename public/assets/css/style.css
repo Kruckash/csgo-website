@@ -1,0 +1,33 @@
+.navbar-blue {
+    background-color: #00695c;
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    border-radius: 0;
+    border-bottom: 0 none;
+}
+
+#navbar a {
+    color: white;
+}
+
+.navbar-brand img {
+    max-height: 100%;
+    transition: 0.8s;
+}
+
+.navbar-brand:hover img {
+    transform: rotate(360deg);
+}
+
+.createLink {
+    background-color: #00695c;
+    margin-top: 15px;
+}
+
+a,a:hover {
+    color: white;
+        text-decoration: none;
+        cursor:pointer;
+}

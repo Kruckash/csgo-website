@@ -1,0 +1,9 @@
+Select a Team
+<div class="row">
+    <div ng-repeat="team in listTeamCtrl.teams" class="col-xs-4">
+        {{team.name}}
+        <div ng-repeat="player in team.players" class="">
+            {{player.alias}}
+        </div>
+    </div>
+</div>
